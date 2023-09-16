@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.nav {
+  height: 70px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ed1d1d9e;
+}
+.porticon {
+  /* border: 2px solid red; */
+  padding: 16px;
+  font-style: italic;
+  font-weight: bolder;
+}
+.restiocn {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  font-size: 20px;
+  align-items: center;
+  /* font-weight: bold; */
+  cursor: pointer;
+  padding: 16px;
+}
+.home {
+}
+.about {
+}
+.projects {
+}
+.hireme {
+  background-color: black;
+  color: white;
+  /* padding: 6px; */
+  border-radius: 2ch;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+button:hover {
+  text-decoration: underline;
+  padding: 2px;
+}
