@@ -224,3 +224,73 @@ hr {
   background-color: black;
   height: 1.5px;
 }
+.hobbies {
+  /* border: 2px solid red; */
+  padding: 16px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.ul > li {
+  /* border: 2px solid red; */
+  /* font-weight: bold; */
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
+.ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 10px;
+}
+.skills {
+  display: flex;
+  /* border: 2px solid red; */
+  align-items: center;
+  justify-content: space-evenly;
+  /* flex-direction: ; */
+}
+.skill {
+  margin-bottom: 10px;
+}
+.percdiv1 {
+  height: 6px;
+  width: 90px;
+  background-color: #87172a;
+  width: 70%;
+}
+.percdiv2 {
+  height: 6px;
+  width: 80%;
+  background-color: #3fff0a;
+}
+.percdiv3 {
+  height: 6px;
+  width: 50%;
+  background-color: #ffd506;
+}
+.percdiv4 {
+  height: 6px;
+  width: 94%;
+  background-color: #000dff;
+}
+
+.skillsection {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-weight: bold;
+}
+.leftskills {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  padding: 16px;
+  margin-bottom: 20px;
+  width: 80%;
+  gap: 10px;
+}
+.rightskills h4 {
+  margin-top: 20px;
+}
