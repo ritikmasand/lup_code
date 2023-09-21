@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.nav {
+  display: flex;
+  height: 60px;
+  background-color: #0f1111;
+  align-items: center;
+  /* justify-content: center; */
+}
+.logo {
+  height: 50px;
+  width: 120px;
+  /* border: 2px solid red; */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1IRNXk04_6QwSy9uFhAAG6RzqXqNnzyQf0g&usqp=CAU");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 10px;
+
+  /* border: 2px solid red; */
+}
+.deliver {
+  color: white;
+  display: flex;
+  margin-left: 50px;
+  gap: 7px;
+}
+.delloc i {
+  margin-top: 16px;
+}
